@@ -2,7 +2,7 @@
 #include <fstream>
 
 int * count_parenthesis() {
-    std::ifstream input_file ("1A-input.txt");
+    std::ifstream input_file ("Day1-input.txt");
     int pos = 0;
     int floor = 0;
     int first_basement = 0;

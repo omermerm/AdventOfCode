@@ -6,7 +6,7 @@
 #include <numeric>
 
 int * howMuchWrapping() {
-    std::ifstream input_file ("2A-input.txt");
+    std::ifstream input_file ("Day2-input.txt");
     int acc_paper = 0;
     int acc_ribbon = 0;
     std::string dimstr;

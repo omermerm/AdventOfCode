@@ -29,6 +29,7 @@ int housesVisited() {
         }
         visited.insert(loc);
     }
+    input_file.close();
     return visited.size();
 }
 

@@ -36,6 +36,7 @@ int housesVisited() {
         visited.insert(locs[active_santa]);
         active_santa = 1 - active_santa;
     }
+    input_file.close();
     return visited.size();
 }
 

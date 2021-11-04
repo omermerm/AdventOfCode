@@ -25,8 +25,6 @@ void updateLoc(pair<int, int> * loc, char c) {
 }
 
 int housesVisited() {
-    const int X = 0;
-    const int Y = 1;
     ifstream input_file ("Day3-input.txt");
     pair<int,int> initial_loc (0,0);
     pair<int,int> locs[] = {initial_loc, initial_loc}; //locs[0] is santa, locs[1] is robo-santa

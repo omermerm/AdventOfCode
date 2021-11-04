@@ -5,8 +5,6 @@
 using namespace std;
 
 int housesVisited() {
-    const int X = 0;
-    const int Y = 1;
     ifstream input_file ("Day3-input.txt");
     pair<int,int> loc (0,0);
     set<pair<int,int>> visited;

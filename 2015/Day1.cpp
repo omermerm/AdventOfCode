@@ -17,7 +17,6 @@ int * count_parenthesis() {
         if (floor < 0 & first_basement == 0) {first_basement = pos;}
     }
     input_file.close();
-    std::cout << pos << floor << "\n" ;
     static int ans[2] = {floor, first_basement};
     return ans;
 }
